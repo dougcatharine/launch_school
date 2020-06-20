@@ -13,3 +13,12 @@ def greeting(name)
 end
 
 greeting("Doug Catharine")
+
+
+# solution 
+
+def greeting(name)
+  "Hello, " + name + ". How are you doing?"
+end
+
+puts greeting("Bob")

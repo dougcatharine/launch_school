@@ -9,7 +9,7 @@ x = 2
 puts x = 2
 #code error
 p name = "Joe"
-"joe"
+#"joe"
 
 four = "four"
 #nothing

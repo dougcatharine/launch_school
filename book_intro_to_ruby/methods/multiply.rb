@@ -14,3 +14,12 @@ end
 puts multiply(2,3)
 puts multiply(-3,2.444)
 puts(multiply("six",4))
+
+
+# solituion
+
+def multiply(number1, number2)
+  number1 * number2
+end
+
+puts multiply(4, 2)
