@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ex_1.rb
 # Doug Catharine
 # 20200701
@@ -31,3 +32,8 @@ puts arr
 p arr
 
 
+=======
+ex_1.rb
+# Doug Catharine
+# 20200713
+>>>>>>> cea10cf2d5d3bb2774daee708a52eb0c99399b08
