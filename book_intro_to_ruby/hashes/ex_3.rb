@@ -13,6 +13,7 @@ animals = {elk: 'tasty', deer: 'plentiful', bison:'rare', goat: 'few'}
 for i in animals.each_key
   puts i
 end
+animals.each_key {|key| puts key}
 for i in animals.each_value
   puts i
 end
