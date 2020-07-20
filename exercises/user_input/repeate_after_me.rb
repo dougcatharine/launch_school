@@ -23,4 +23,4 @@ end
 
 
 puts "type any string"
-echo(hear)
+echo(listen)

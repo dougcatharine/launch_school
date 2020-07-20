@@ -19,7 +19,6 @@ def division_display(num_or_denom)
       puts "Not a valid #{num_or_denom}!"
     end
   end
-  
 end
 
 num = division_display("numerator")
