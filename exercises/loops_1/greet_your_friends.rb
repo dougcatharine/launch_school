@@ -24,3 +24,9 @@ while friends.length >0
   puts "Hello, #{friends.shift}!"
 
 end
+
+# from solution
+
+for friend in friends
+  puts "Hello, #{friend}!"
+end

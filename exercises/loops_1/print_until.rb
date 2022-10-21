@@ -16,6 +16,7 @@ Expected output:
 13
 25
 18
+
 =end
 
 numbers = [7, 9, 13, 25, 18]
