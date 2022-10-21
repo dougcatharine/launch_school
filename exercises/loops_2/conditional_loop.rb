@@ -23,7 +23,9 @@ process_the_loop = [true, false].sample
 process_the_loop = [true, false].sample
 
 if process_the_loop
+  loop do
   puts "the loop was processed"
+  break
 else
   puts "the loop wasn't processed"
 end
