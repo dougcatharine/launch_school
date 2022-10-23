@@ -1,0 +1,29 @@
+# stoplight.rb
+# Doug Catharine
+# 20221022
+
+
+=begin Convert the following case statement to an if statement.
+
+Copy Code
+stoplight = ['green', 'yellow', 'red'].sample
+
+case stoplight
+when 'green'
+  puts 'Go!'
+when 'yellow'
+  puts 'Slow down!'
+else
+  puts 'Stop!'
+end
+=end
+
+stoplight = ['green', 'yellow', 'red'].sample
+
+if stoplight == 'green'
+  puts 'Go!'
+elsif 'yellow'
+  puts 'Slow down!'
+else
+  puts 'Stop!'
+end
