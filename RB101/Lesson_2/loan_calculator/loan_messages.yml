@@ -1,0 +1,7 @@
+
+welcome: 'Welcome to the loan Calculator'
+loan_amount: 'How much money would you like to borrow?'
+invalid_num: 'Im sorry, that number was invalid'
+apr_perc: 'What APR would you like to calculate?'
+time: 'How many months would you like the loan for?'
+quit: 'Would you like to quit?'
