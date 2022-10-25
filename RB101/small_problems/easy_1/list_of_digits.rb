@@ -18,7 +18,7 @@ puts digit_list(444) == [4, 4, 4]             # => true
 =end
 
 def digit_list(dig)
-  dig.digits
+  gig.length
 end
 
 puts digit_list(12345) == [1, 2, 3, 4, 5]     # => true
