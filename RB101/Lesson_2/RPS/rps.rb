@@ -2,19 +2,20 @@
 # Doug catharine
 # 20221027
 
-require 'pry'
-
-VALID_CHOICES = %w(rock paper scissors)
+VALID_CHOICES = %w(rock paper scissors lizard spock)
 VALID_AGAIN = %w(yes no)
+WIN = { rock: ['scissors', 'lizzard'],
+        paper: ['rock', 'spock'],
+        scissors: ['paper', 'lizzard'],
+        spock: ['scissors', 'rock'],
+        lizard: ['paper', 'spock'] }
 
 def prompt(message)
   puts "=> #{message}"
 end
 
 def win?(first, second)
-  first == 'rock' && second == 'scissors' ||
-    first == 'paper' && second == 'rock' ||
-    first == 'scissors' && second == 'paper'
+  WIN[first.to_sym].include?(second)
 end
 
 def display_results(player, computer)
