@@ -21,3 +21,15 @@ puts reverse_words('Launch School')         # => hcnuaL loohcS
 # join string 
 # return string
 #end method
+
+
+def reverse_words(str)
+  split_str = str.split
+  split_str.each { |word| word.reverse! if word.length >= 5 }
+  split_str.join(' ')
+end
+
+
+puts reverse_words('Professional')          # => lanoisseforP
+puts reverse_words('Walk around the block') # => Walk dnuora the kcolb
+puts reverse_words('Launch School')         # => hcnuaL loohcS
